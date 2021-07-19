@@ -2,11 +2,50 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 
     .travel{
-        padding: 20px;
-    border: 1px solid red;
+        width: 400px;
+        border-radius: 10px;
+        margin: 30px;
+        background-color: white;
+
+        img{
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        .content{
+            padding: 20px;
+            position: relative;
+
+            i{
+                color: rgb(221, 127, 19);
+            }
+            h2{
+                font-size: 25px;
+                padding: 10px 0;
+            }
+            h3{
+                position: absolute;
+                top: -30px;
+                right: 50px;
+                background-color: white;
+                padding: 10px 20px;
+                border-radius: 50px;
+            }
+            .date{
+                display: flex;
+                align-items: center;
+                margin: 10px 0;
+
+                h5{
+                    margin-right: 5px;
+                }
+
+            }
+
+        }
     }
     
 }
